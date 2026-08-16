@@ -1,0 +1,9 @@
+Supabase → Looker Studio
+
+Para transformar os dados e indicadores em informações visuais, utilizei o Google Looker Studio como ferramenta de Business Intelligence.
+
+Os dados estruturados no Supabase eram conectados ao Looker Studio, permitindo transformar consultas SQL e indicadores em dashboards, gráficos e visualizações interativas.
+
+Um dos recursos utilizados foi a possibilidade de trabalhar com o PostgreSQL utilizado pelo Supabase e também utilizar fontes de dados personalizadas baseadas em consultas SQL.
+
+Isso permitia utilizar no Looker Studio consultas desenvolvidas durante a exploração dos dados no Supabase, levando os resultados diretamente para os dashboards.
