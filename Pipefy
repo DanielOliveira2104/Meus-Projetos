@@ -1,9 +1,0 @@
-O Pipefy era utilizado como ferramenta para gerenciamento dos processos. Nele eram construídos Pipes, organizados em um fluxo Kanban com fases e campos responsáveis pelo registro das informações de cada processo.
-
-Para integrar essas informações com outros sistemas, utilizei o n8n, construindo fluxos de automação com Webhooks, HTTP Requests, edição e transformação de dados, modelos de agentes de IA e outros tipos de Nodes.
-Essas integrações permitiam conectar o Pipefy aos CRMs, ERPs e bases de dados dos clientes, centralizando informações como clientes, funcionários, contatos e dados relacionados aos processos.
-
-Pipefy → n8n → Supabase
-
-Em determinados projetos, as necessidades de análise ultrapassavam as possibilidades oferecidas diretamente pelo Pipefy. 
-Como alternativa, utilizei o Supabase para estruturar e armazenar os dados em um banco de dados relacional baseado em PostgreSQL.
