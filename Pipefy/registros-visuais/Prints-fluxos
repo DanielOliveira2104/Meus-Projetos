@@ -1,3 +1,6 @@
 # Prints dos Fluxos Pipefy
 
 Registros visuais dos fluxos, processos e estruturas desenvolvidos no Pipefy.
+
+Também tem alguns prints de como funciona a construção de automação dentro da farramente e a montagem de um condicional onde 
+escondia ou exibia campos que colocava nas fases do fluxo. 
