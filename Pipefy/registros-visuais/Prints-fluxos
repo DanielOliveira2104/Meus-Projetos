@@ -4,3 +4,11 @@ Registros visuais dos fluxos, processos e estruturas desenvolvidos no Pipefy.
 
 Também tem alguns prints de como funciona a construção de automação dentro da farramente e a montagem de um condicional onde 
 escondia ou exibia campos que colocava nas fases do fluxo. 
+
+As automações na ferramente servem para automatizar várias ações dentro do próprio fluxo, como: Preencher campos, mover cards, atualizar opções, etc.. Assim, assistenciando os fluxos e
+automatizando ações repetitivas. 
+
+As condicionais se asemelham a IFs e ELSEs. A lógica é parecida. Adicionamos um gatilho, se o gatilho for verdadeiro, exebiria ou ocultaria qualquer campo, 
+se a ação não acontecer, falsa, faria a ação contrária. 
+
+Apesar da ferramenta ser low-code, possui muito de lógica de programação, me ajudando a commpreender melhor como funciona automações, gatilhos, funções e toda a lógica por trás. 
