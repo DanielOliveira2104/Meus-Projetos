@@ -1,0 +1,28 @@
+N8N e Integrações
+O n8n foi utilizado como camada de integração e automação entre diferentes sistemas e fontes de dados. 
+Através de workflows compostos por diferentes Nodes, desenvolvi fluxos utilizando Webhooks, requisições HTTP, APIs, 
+JavaScript, processamento de dados, Google Sheets, Discord, modelos de IA e integrações com bancos de dados.
+
+Os workflows eram utilizados para conectar o Pipefy a outros sistemas, automatizar tarefas operacionais, processar informações e criar mecanismos de monitoramento.
+
+TODOS OS PROJETOS ESTÃO PRINTADOS NA PASTA DE REGISTROS VISUAIS
+
+Projetos desenvolvidos:
+
+- Agente de IA integrado ao Pipefy e Supabase
+
+Desenvolvimento de um agente capaz de interagir com diferentes Pipes do Pipefy, ele atuava como uma ferramenta de gerenciamento de tarefas (CRUD). 
+Depois, o projeto foi expandido com integração ao MCP do Supabase, permitindo que o agente consultasse dados das carteiras de clientes, 
+realizasse consultas SQL e retornasse informações estratégicas a partir dos dados armazenados.
+
+- Análise automatizada de produtividade
+
+Automação integrada ao Pipefy que, semanalmente, buscava os cards concluídos durante o período, processava as informações com um modelo de IA e gerava um resumo das atividades realizadas. 
+O fluxo também calculava indicadores de produtividade por colaborador e percentual de demandas concluídas, sendo executado automaticamente antes das reuniões semanais. Além de gerar esse resumo, ele enviava
+a mensagem com o resumo para o noss canal do Discord, onde eram feitas as reuniões, assim já disponibilizando para visualização. 
+
+- Monitoramento de logs e falhas do Pipefy
+
+Foi desenvolvida uma automação que monitorava os logs das automações no pipefy. Quando uma falhava, era disparado um alerta para a equipe e registrava a falha em um planilha. 
+Quando uma falha era identificada, suas informações eram processadas e registradas em uma planilha Google Sheets, enquanto um alerta era enviado ao Discord contendo informações sobre a 
+falha e acesso direto à automação.
